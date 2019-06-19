@@ -1,0 +1,56 @@
+.container
+{
+  background-color: #A9A9A9;
+}
+#welcome-section{
+  height: 100vh;
+  
+
+}
+#content{
+  text-align: center;
+  display: block;
+  padding-top: 100px;
+}
+#navbar
+{
+  overflow: hidden;
+   position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+}
+.card
+{
+  height: 50px;
+  width:50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF0000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+@media screen and (max-width: 400px) {
+
+    #images{height: 50px;}
+  }
